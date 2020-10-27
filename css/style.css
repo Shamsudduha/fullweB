@@ -1,0 +1,255 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Fjalla One', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+img{max-width: 100%;}
+
+header{}
+.head{
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+.logo{
+    width: 25%;
+}
+.logo a{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.logo a img{
+    width: 100%;
+}
+
+
+.menu{
+    width: 75%;
+}
+.menu ol{
+    display: flex;
+    list-style: none;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.menu ol li {}
+.menu ol li a{
+    text-decoration: none;
+    padding: 0px 28px;
+    font-family: Fjalla One;
+    color: #3f3d56;
+    transition-duration: .5s;
+}
+.menu ol li a:hover{
+    color: #dddfe6;
+}
+
+
+.start{
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    padding: 20px 20px;
+    align-items: flex-end;
+}
+.hello{
+    width: 40%;
+    line-height: 26px;
+    padding-bottom: 52px;
+    color: #3f3d56;
+}
+.hello h1{
+    font-size: 120px;
+    margin-left: -7px;
+}
+.sp1{
+    font-size: 27px;
+}
+.sp2{
+    font-size: 42px;
+    font-weight: 600;
+}
+.sp3{
+    font-weight: 300;
+    font-family: roboto;
+}
+
+
+.ban{
+    width: 60%;
+}
+.ban img{}
+
+
+.he2{
+    margin-bottom: 22px;
+    line-height: 32px;
+}
+
+.smallbar{
+    height: 7px;
+    width: 114%;
+    background-color: #3f3d56;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.bar2{
+    width: 106%;
+    margin: auto;
+    height: 5px;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    margin-top: 32px;
+}
+.middle{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    line-height: 58px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.what{
+    font-size: 14px;
+    color: #b3b7b7;
+    font-family: 'Fjalla One';
+}
+.my{
+    font-size: 48px;
+    font-family: 'Fjalla One';
+}
+.bar3{
+    height: 5px;
+    width: 22%;
+    margin: auto;
+    background-color: #b6b6ba;
+}
+
+.con{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.cont{
+    width: 50%;
+    padding: 10px 20px;
+}
+.box{}
+.ima{
+    max-width: 100%;
+    height:100%
+}
+.ima a{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.ima a img{
+    transition-duration: .7s;
+}
+.ima a img:hover{box-shadow: 0px 15px 20px gray;}
+.texta{
+    margin-top: 20px;
+    text-align: center;
+}
+.texta h1{
+    font-size: 36px;
+    transition-duration: .4s;
+    display: inline-block;
+}
+.texta h1:hover{
+    opacity: .2;
+}
+.texta a{
+    text-decoration: none;
+}
+
+.texta p{font-weight: 400;}
+
+footer{
+    background-color: #3f3d56;
+    color: white;
+    margin-top: 300px;
+}
+.foot{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.pt{
+    width: 30%;
+}
+.pt ol{
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+}
+.pt ol li{
+    padding: 20px 30px;
+}
+.pt ol li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    transition-duration: .3s;
+}
+.pt ol li a:hover{
+    opacity: .2;
+}
+
+.so{
+    width: 70%;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.so span{
+    font-size: 14px;
+    font-weight: 800;
+}
+.so ol {
+    list-style: none;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+}
+.so ol li{}
+.so ol li a{}
+.so ol li a:hover{}
+.so ol li a i{
+    box-sizing: border-box;
+    padding-left: 20px;
+    color: white;
+    transition-duration: .4s;
+}
+.so ol li a i:hover{
+    opacity: .2;
+}
+
+
