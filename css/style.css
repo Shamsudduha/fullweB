@@ -3,18 +3,30 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 
 body{
 	font-family: 'Fjalla One', sans-serif;
-font-family: 'Lobster', cursive;
-font-family: 'Roboto', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Lobster', cursive;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #3f3d56;
 }
 
-img{max-width: 100%;}
+img{
+	max-width: 100%;
+	object-fit:cover;
+	object-position: top;
+}
+a{
+	text-decoration: none;
+}
 
-header{}
+header{
+    box-shadow: 0px -4px 7px #313131;
+}
 .head{
     display: flex;
     flex: 0 0 auto;
@@ -151,25 +163,32 @@ header{}
     margin-top: 30px;
 }
 .cont{
-    width: 50%;
-    padding: 10px 20px;
+    width: 45%;
+    padding: 10px 0px;
+    margin: auto;
+    border: 1px solid #878787;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
-.box{}
+.box{
+    margin: 20px;
+}
 .ima{
     max-width: 100%;
-    height:100%
 }
 .ima a{
     text-decoration: none;
     box-sizing: border-box;
 }
 .ima a img{
-    transition-duration: .7s;
+    transition-duration: .3s;
+    width: 100%;
+    height: 360px;
 }
 .ima a img:hover{box-shadow: 0px 15px 20px gray;}
 .texta{
-    margin-top: 20px;
     text-align: center;
+    margin: 30px 30px;
 }
 .texta h1{
     font-size: 36px;
@@ -252,4 +271,100 @@ footer{
     opacity: .2;
 }
 
+/****...........................signup section..........................**/
+.section{
 
+}
+.loginbox span{
+    font-size: 32px;
+    font-weight: 300;
+    font-family: 'Fjalla One';
+}
+.loginbox{
+    display: flex;
+    flex: 0 0 auto;
+    margin: auto;
+    align-items: center;
+    width: 30%;
+    margin-top: 72px;
+    box-shadow: 10px 10px 19px #d9d9d9, 
+             -10px -10px 19px #ffffff;
+
+             transition-duration: .7s;
+}
+
+.loginbox:hover{
+	box-shadow: 10px 10px 19px #ffffff, 
+             -10px -10px 19px #d9d9d9;
+}
+
+form {padding: 25px 30px;font-family: 'Roboto';}
+form input , form textarea {
+    padding: 5px 10px;
+    background-color: #ffffff00;
+    border: 2px solid #949494;
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0 0px;
+    font-family: 'Roboto';
+    transition-duration: .3s;
+}
+
+form input:hover , form textarea:hover{
+    background-color: #f5f5f5;
+}
+
+
+
+input:focus ,textarea:focus{
+    background-color: #e4e5e8;
+    outline: none;
+}
+
+
+form label{display: inline-block;margin: 15px 5px 0px 0px;color: #363636;font-size: 14px;font-weight: 500;}
+form strong{
+    margin: 18px 0 0px;
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+form input[type="submit"]{
+    width: auto;
+    padding: 10px 20px;
+    margin-left: 144px;
+    margin-right: 144px;
+    margin-top: 30px;
+    transition-duration: .3s;
+}
+
+
+form input[type="submit"]:hover{
+
+background-color: #313131;
+
+color: white;
+
+border: 2px solid #313131;
+}
+
+
+ form input[type="radio"],
+ form input[type="checkbox"]
+ {width: auto;}
+
+form p{
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+.signup{
+    color: #3f3d56;
+    font-weight: 900;
+}
+.signup:hover{opacity: .34;}
+
+
+/****...........................signup section..........................**/
